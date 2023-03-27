@@ -1,7 +1,7 @@
 /* Default Styles */
 
 body {
-    background-color: beige;
+    background-color: rgb(234, 234, 164);
     padding: 0px;
 }
 
@@ -15,10 +15,16 @@ body {
 }
 
 
+
+
 .page-title{
     text-align: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border: 0px;
+    background-color: aquamarine;
+    
 }
 
 .menu-title{
@@ -28,7 +34,7 @@ body {
 }
 
 .menu-explanation {
-    height: 1000px;
+    height: hv;
     text-align: justify;
 }
 
