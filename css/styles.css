@@ -39,7 +39,17 @@ body {
 }
 
 
+.row {
+    float:left;
+}
 
+.col-12 {
+    height: 1000px;
+    text-align: justify;
+}
 
-
-
+.col-12 h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
