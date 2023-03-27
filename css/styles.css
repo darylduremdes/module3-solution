@@ -1,0 +1,39 @@
+/* Default Styles */
+
+body {
+    background-color: beige;
+    padding: 0px;
+}
+
+
+
+/* Custom Styles */
+
+.navbar-brand {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.page-title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.menu-explanation {
+    height: 1000px;
+    text-align: justify;
+}
+
+
+
+
+
+
