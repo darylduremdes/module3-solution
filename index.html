@@ -17,10 +17,43 @@
         <div class="container">
             <a class="navbar-brand" href="#home">Food, LLC</a>
 
+            <!--
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            -->
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+<!---->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#chicken">Chicken</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#beef">Beef</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sushi">Sushi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+<!---->
+
+<!--
             <div class="d-none">
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ms-auto">
@@ -39,9 +72,10 @@
         
                 </ul>
             </div>
-            </div><!-- end of d-none-->
-        </div> <!-- end of container-->
+            </div>  -->
+        </div>
     </nav>
+
 
     <!-- OUR MENU -->
     <div>
@@ -83,5 +117,6 @@
         </div>
     </div>
 
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
